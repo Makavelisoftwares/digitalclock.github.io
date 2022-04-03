@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(./images/banner4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    background-color: rgba(251, 0, 0, 0.267);
+    backdrop-filter: blur(14px) saturate(100%);
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    display: flex;
+    font-size: 2em;
+    font-weight: 900;
+    color: rgb(248, 244, 0);
+    
+}
+
